@@ -7,6 +7,8 @@ import morgan from "morgan";
 import OpenAI from "openai";
 import openAiRoutes from "./routes/openai.js";
 import authRoutes from "./routes/auth.js";
+import { AbortController } from 'abort-controller';
+// global.AbortController = AbortController;
 
 /* CONFIGURATIONS */
 dotenv.config();
